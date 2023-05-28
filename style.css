@@ -1,12 +1,20 @@
 
 
-.inicio{
+nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    height: 40px;
     color: red;
+    list-style: none;
+    
     margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
 }
 .logo{
     display: flex;
