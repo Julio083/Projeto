@@ -1,5 +1,4 @@
 
-
 nav ul{
     display: flex;
     justify-content: space-around;
@@ -23,7 +22,7 @@ nav ul li a {
     font-size: 55px;
     background-color: #e40814;
 }
-section{
+.imagem_index{
     background-image: url(https://lh5.googleusercontent.com/p/AF1QipNiHe2sAYo1Z2Cs05diM3_bAxEtTHPfgkT0Eoa4=w650-h365-k-no);
     width: 100%;
     height: 800px;
@@ -60,4 +59,15 @@ form{
     text-decoration: none;
     color: red;
     font-size: 20px;
+}
+
+.titulo{
+    text-align: center;
+    
+}
+
+.google_maps{
+    width: 100%;
+    height: 500px;
+    
 }
