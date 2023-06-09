@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>Cadastre-se - Brother's Ramos</title>
+</head>
+<body class="central">
+    <p class="voltar"><a class="voltar" href="projeto_JJ.html">Voltar</a></p>
+    <div class="cd"> 
+    <div class="card">
+        <div class="card-details">
+          <p class="text-title">Cadastre-se</p>
+          <form action="Agradecimentojj.html" method="get">
+            <label>Nome: </label>
+            <input type="text" name="nome" required><br>
+            <label>E-mail: </label>
+            <input type="email" name="email" required> <br>
+            <label>Assunto: </label>
+            <select name="assunto">
+                <option value="selecione">Selecione</option>
+                <option value="sugestao">Matricula</option>
+                <option value="critica">Pagamentos</option>
+                <option value="elogio">Feedback</option>
+            </select><br>
+            <label>Mensagem: </label>
+            <!--input type="text" name="mensagem"><br-->
+            <textarea name="Mensagem" required></textarea><br>
+            <input type="checkbox" name="termo"
+            value="Concordo com os Termos" required>
+            <label>
+                Concordo com os Termos de Privacidade do Site.
+            </label><br>
+            <input class="card-button" type="submit" value="Cadastrar">
+        </form>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
