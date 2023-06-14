@@ -6,26 +6,33 @@
     font-family: 'Merriweather', sans-serif;
 }
 
+/* inicio da logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    background-color: #e40814;
+}
+
+
+/* inicio do nome do logo  */
+.title-logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 18px 0 rgb(230, 8, 8);
+}
+/* fim do nome do logo */
+
+/* fim da logo */
+
 header {
     background-color: hsl(231, 7%, 19%);
     box-shadow: 0px 3px 10px #464646;
 }
 
-.central {
-    background-image: url(https://lh5.googleusercontent.com/p/AF1QipNiHe2sAYo1Z2Cs05diM3_bAxEtTHPfgkT0Eoa4=w650-h365-k-no);
-    width: 100%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.central1 {
-    background-image: url(/assets/img/fundo_história.jpg);
-    width: 100%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* Barra de navegação */
 
 .nav-bar {
     display: flex;
@@ -55,29 +62,33 @@ header {
     font-weight: 400;
 }
 
-.title-logo {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 4px 18px 0 rgb(230, 8, 8);
+/* fim da barra de navegação */
+
+
+
+/* inicio imagem de fundo do index e da historia */
+.central {
+    background-image: url(https://lh5.googleusercontent.com/p/AF1QipNiHe2sAYo1Z2Cs05diM3_bAxEtTHPfgkT0Eoa4=w650-h365-k-no);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.voltar {
-    text-decoration: none;    
-    width: 4.5%;
-    height: 4.1%;
-    border-radius: 3rem;
-    border: none;
-    background-color: #f80000;
-    color: #fff;
-    font-size: 1rem;
-    padding: .4rem 1rem;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    transition: 0.3s ease-out;
+.central_historia {
+    background-image: url(/assets/img/fundo_história.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+/* fim imagem de fundo do index e da historia */
+
+
+
+
+/* início código para o mobile */
 
 .mobile-menu-ícon {
     display: none;
@@ -124,34 +135,25 @@ header {
     }
 }
 
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 65px;
-    background-color: #e40814;
-}
+/* fim código para o mobile */
 
-.link {
-    text-decoration: none;
-    color: red;
-    font-size: 20px;
-
-}
-
-.link:hover {
+/* inicio classes para a parte de texto da página de história */
+.texto_historia {
+    margin: 0 auto;
+    width: 70%;
     color: white;
+    font-size: 15px;
 }
 
-.text1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: black;
-    margin-top: 23%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.texto_historia h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
+
+/* fim classes para a parte de texto da página de história */
+
+/* inicio das classes da página de  contato e agradecimento */
 
 .card {
     width: 350px;
@@ -165,6 +167,8 @@ header {
     overflow: visible;
    }
    
+
+   /* inicio da classes da página agredecimento */
    .card-details {
     color: black;
     height: 100%;
@@ -189,7 +193,8 @@ header {
     transition: 0.3s ease-out;
    }
 
-
+   
+/* inicio texto da página agradecimento */
 .text-body {
     color: rgb(134, 134, 134);
 }
@@ -198,6 +203,9 @@ header {
     font-size: 1.5em;
     font-weight: bold;
 }
+/* fim texto da página agradecimento */
+
+ /* fim da classes da página agredecimento */
 
 .card:hover {
     border-color: #f80000;
@@ -216,16 +224,25 @@ header {
     margin-top: 130px;
 }
 
+/* fim das classes da página de  contato e agradecimento */
 
-.texto_historia {
-    margin: 0 auto;
-    width: 70%;
-    color: white;
-    font-size: 15px;
-}
 
-.texto_historia h1 {
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+
+
+/* inicio da página de contato para o botão de voltar */
+.voltar {
+    text-decoration: none;    
+    width: 4.5%;
+    height: 4.1%;
+    border-radius: 3rem;
+    border: none;
+    background-color: #f80000;
+    color: #fff;
+    font-size: 1rem;
+    padding: .4rem 1rem;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    transition: 0.3s ease-out;
 }
+/* fim da página de contato para o botão de voltar */
