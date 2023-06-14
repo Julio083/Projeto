@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -17,6 +18,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .central1 {
     background-image: url(/assets/img/fundo_história.jpg);
     width: 100%;
@@ -53,15 +55,15 @@ header {
     font-weight: 400;
 }
 
-.title-logo{
-    font-family:'Times New Roman', Times, serif;
+.title-logo {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     color: rgb(255, 255, 255);
     box-shadow: 0 4px 18px 0 rgb(230, 8, 8);
 }
 
 .voltar {
-    text-decoration: none;    
+    text-decoration: none;
     width: 6%;
     height: 6%;
     border-radius: 3rem;
@@ -89,9 +91,11 @@ header {
     .nav-bar {
         padding: 1.5rem 4rem;
     }
+
     .nav-item {
         display: none;
     }
+
     .mobile-menu-ícon {
         display: block;
     }
@@ -116,36 +120,39 @@ header {
 
     .open {
         display: block;
-        
+
     }
 }
 
-.logo{
+.logo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     font-size: 65px;
     background-color: #e40814;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: red;
     font-size: 20px;
-    
+
 }
-.link:hover{
+
+.link:hover {
     color: white;
 }
-.text1{
+
+.text1 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     background-color: black;
     margin-top: 23%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .card {
     width: 270px;
     height: 304px;
@@ -156,17 +163,17 @@ header {
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-   }
-   
-   .card-details {
+}
+
+.card-details {
     color: black;
     height: 100%;
     gap: .5em;
     display: grid;
     place-content: center;
-   }
-   
-   .card-button {
+}
+
+.card-button {
     transform: translate(-50%, 125%);
     width: 60%;
     border-radius: 1rem;
@@ -180,45 +187,46 @@ header {
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
-   }
-   
-   .text-body {
+}
+
+.text-body {
     color: rgb(134, 134, 134);
-   }
-   
-   /*Text*/
-   .text-title {
+}
+
+/*Text*/
+.text-title {
     font-size: 1.5em;
     font-weight: bold;
-   }
-   
-   /*Hover*/
-   .card:hover {
+}
+
+/*Hover*/
+.card:hover {
     border-color: #f80000;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-   }
-   
-   .card:hover .card-button {
+}
+
+.card:hover .card-button {
     transform: translate(-50%, 50%);
     opacity: 1;
-   }
-.cd{
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 130px;
-    }
+}
+
+.cd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
 
 
-    .texto_historia{
-        margin: 0 auto;
-        width: 70%;
-        color: white;
-        font-size: 15px;
-    }
+.texto_historia {
+    margin: 0 auto;
+    width: 70%;
+    color: white;
+    font-size: 15px;
+}
 
-    .texto_historia h1{
-        text-align: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
+.texto_historia h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
