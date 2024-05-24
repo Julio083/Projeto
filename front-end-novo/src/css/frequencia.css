@@ -1,0 +1,40 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #292929;
+}
+
+h3{
+    color: white;
+}
+
+.titulo{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-size: 1.8rem;
+}
+.icon{
+    margin-right: 0.3rem;
+}
+
+.calendario{
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-left{
+    margin-right: 10rem;
+}
+
+.btn-right{
+    margin-left: 10rem;
+}
+
+.calendario-mes .mes-ano{
+    margin-bottom: 1.5rem;
+}
