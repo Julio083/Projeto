@@ -22,17 +22,45 @@ h3{
 .calendario{
     color: white;
     margin-top: 5rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+.calendario-mes .mes-ano{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.calendario-mes .dias{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(6 , 1fr);
+    gap: 1.5rem;
+}
+
+.divDia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: #292929;
+    border: solid blue 1px;
 }
 
 .btn-left{
     margin-right: 10rem;
+    font-size: 2.5rem;
 }
 
 .btn-right{
     margin-left: 10rem;
+    font-size: 2.5rem;
 }
 
 .calendario-mes .mes-ano{
